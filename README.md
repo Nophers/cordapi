@@ -1,6 +1,6 @@
 ## Description
 
-[CordAPi]() helping APi for the konicord website.
+[Konicord](https://github.com/vKxni/konicord) helping APi for the konicord website.
 
 ## Setup
 
