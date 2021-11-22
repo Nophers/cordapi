@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { Resolver, Query, Mutation, Args } from '@nestjs/graphql';
 import { DonationsService } from './donations.service';
 import { CreateDonationInput } from './dto/create-donation.input';

@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { Module } from '@nestjs/common';
 import { DonationsService } from './donations.service';
 import { DonationsResolver } from './donations.resolver';
