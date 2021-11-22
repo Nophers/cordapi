@@ -2,7 +2,7 @@
   "name": "cordapi",
   "version": "0.0.1",
   "description": "GraphQL, Prisma Cord APi",
-  "author": "",
+  "author": "Koni",
   "private": true,
   "license": "UNLICENSED",
   "prisma": {
@@ -15,6 +15,7 @@
     "start": "nest start",
     "dev": "concurrently \"npm:start:dev\" \"npm:gen-typing\" \"npm:prisma:generate\"",
     "start:dev": "nest start --watch",
+  
     "gen-typing": "ts-node ./src/gen-typings",
     "prisma:generate": "prisma genereate --watch",
     "start:debug": "nest start --debug --watch",

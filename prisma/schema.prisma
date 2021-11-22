@@ -17,3 +17,15 @@ model Donation {
   message     String?
   team        String?
 }
+
+model user {
+  name        String
+  id          Int @id @default(autoincrement())
+  createdAt   DateTime @default(now())
+  count       Int
+  displayName String?
+  email       String
+  mobile      String?
+  message     String?
+  team        String?
+}
