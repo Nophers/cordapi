@@ -5,6 +5,9 @@
 # passworded files
 .env
 
+# dist
+.dist
+
 # Logs
 logs
 *.log
