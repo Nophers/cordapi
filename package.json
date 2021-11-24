@@ -15,7 +15,6 @@
     "start": "nest start",
     "dev": "concurrently \"npm:start:dev\" \"npm:gen-typing\" \"npm:prisma:generate\"",
     "start:dev": "nest start --watch",
-  
     "gen-typing": "ts-node ./src/gen-typings",
     "prisma:generate": "prisma genereate --watch",
     "start:debug": "nest start --debug --watch",
@@ -37,6 +36,7 @@
     "apollo-server-express": "^3.5.0",
     "graphql": "^15.7.2",
     "graphql-iso-date": "^3.6.1",
+    "konimath": "^1.1.2",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
     "rxjs": "^7.2.0",
