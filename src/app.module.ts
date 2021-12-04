@@ -16,7 +16,7 @@ import { GraphQLDateTime } from 'graphql-iso-date';
       resolvers: { DateTime: GraphQLDateTime },
       subscriptions: {
         'graphql-ws': true,
-        'subscriptions-transport-ws': true,
+        'subscriptions-transport-ws': true, // for development listener
       },
     }),
     DonationsModule,
